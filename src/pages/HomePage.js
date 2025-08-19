@@ -107,7 +107,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </section>
 
 {/* Why Camp Winadu Section - MATCHING FIGMA */}
 <section className="py-32 relative">
