@@ -109,77 +109,65 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Why Camp Winadu Section - MATCHING FIGMA */}
-      <section className="py-32 relative">
-        <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('/whycampwinadubackground.svg')"}}></div>
-        <div className="container-custom relative">
-          {/* Main container with proper positioning */}
-            <div className="relative">
-            {/* Yellow border box container - positioned absolutely */}
-            <div 
-              className="absolute border-[#FAC402] border-[15px] border-solid p-8 min-h-[500px] bg-white"
-              style={{
-                left: '275px',  /* Extended more to the left */
-                right: '-70px', /* Extended more to the right */
-                bottom: '-75px',
-                top: '0'
-              }}
-            >
-            </div>
+{/* Why Camp Winadu Section - MATCHING FIGMA */}
+<section className="py-32 relative">
+  <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('/whycampwinadubackground.svg')"}}></div>
+  
+  <div className="container-custom relative">
+    <div className="relative">
+      {/* Yellow border box container */}
+      <div 
+        className="absolute border-[#FAC402] border-[15px] border-solid p-8 min-h-[500px] bg-white"
+        style={{
+          left: '275px',
+          right: '-70px',
+          bottom: '-75px',
+          top: '0'
+        }}
+      >
+      </div>
 
-            {/* Content container - this keeps the content and image in place */}
-            <div className="relative flex flex-col lg:flex-row gap-11 items-center z-10">
-              {/* Image Section - positioned on the left */}
-              <div className="relative shrink-0 w-full lg:w-[600px] h-[340px]" style={{ marginLeft: '-70px', marginTop: '65px', marginRight: '50px'}}>
-                <iframe
-                  title="Camp Winadu Video"
-                  src="https://player.vimeo.com/video/169913298?color=ffffff&title=0&byline=0&portrait=0"
-                  className="w-full h-full"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  style={{
-                    border: '2px solid #003DCC',
-                    boxShadow: '0px 4px 4px 0px rgba(0,0,0,0.25)'
-                  }}
-                ></iframe>
-              </div>
-            
-              {/* Content Section - inside the yellow box */}
-              <div className="flex flex-col gap-3 pt-16">
-                <h2 
-                  className="text-[45px] font-bold text-[#002E99] leading-none mb-2"
-                  style={{fontFamily: "'PP Neue Montreal', sans-serif"}}
-                >
-                WHY CAMP WINADU?
-              </h2>
-                <h3 
-                  className="text-[20px] font-bold text-[#001F66] leading-none mb-2"
-                  style={{fontFamily: "'Adobe Clean Serif', serif"}}
-                >
-                Traditional Summer Camp Activities Promote Physical & Psychological Well-Being
-              </h3>
-                                  <p 
-                  className="text-[18px] text-[#001F66] text-justify leading-tight tracking-[0.36px] mb-2"
-                  style={{fontFamily: "'Adobe Clean Serif', serif", lineHeight: '1.3'}}
-                >
-                  Camp Winadu has earned its reputation as one of the premier summer camps in the nation. Winadu is known for its beautiful facilities and elite leadership coaching. Just 2.5 hours from New York and Boston, we are recognized for our commitment to developing character in a healthy, active, screen-free environment. Set against the natural beauty of the Berkshire Mountains and the stunning shores of Lake Onota, we recently received the prestigious CampGroup Excellence Award. Our campers return year after year, generation after generation, creating lasting friendships and memories that span a lifetime.
-                </p>
-                <Link 
-                  to="/our-facility" 
-                  className="inline-flex items-center gap-1 px-3 py-1.5 bg-[#002E99] text-white font-medium rounded-full transition-colors duration-200 border border-[#003DCC] w-fit"
-                  style={{fontFamily: "'PP Neue Montreal', sans-serif", fontSize: '16px', letterSpacing: '0.32px'}}
-                >
-                Virtual Tour
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-              </div>
-            </div>
-          </div>
+      {/* Content container */}
+      <div className="relative flex flex-col lg:flex-row gap-11 items-center z-10">
+        {/* Image Section */}
+        <div className="relative shrink-0 w-full lg:w-[600px] h-[340px]" style={{ marginLeft: '-70px', marginTop: '65px', marginRight: '50px'}}>
+          <iframe
+            title="Camp Winadu Video"
+            src="https://player.vimeo.com/video/169913298?color=ffffff&title=0&byline=0&portrait=0"
+            className="w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+            style={{
+              border: '2px solid #003DCC',
+              boxShadow: '0px 4px 4px 0px rgba(0,0,0,0.25)'
+            }}
+          ></iframe>
         </div>
-      </section>
+
+        {/* Content Section */}
+        <div className="flex flex-col gap-3 pt-16">
+          <h2 className="text-[45px] font-bold text-[#002E99] leading-none mb-2" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
+            WHY CAMP WINADU?
+          </h2>
+          <h3 className="text-[20px] font-bold text-[#001F66] leading-none mb-2" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
+            Traditional Summer Camp Activities Promote Physical & Psychological Well-Being
+          </h3>
+          <p className="text-[18px] text-[#001F66] text-justify leading-tight tracking-[0.36px] mb-2" style={{fontFamily: "'Adobe Clean Serif', serif", lineHeight: '1.3'}}>
+            Camp Winadu has earned its reputation as one of the premier summer camps in the nation. Winadu is known for its beautiful facilities and elite leadership coaching. Just 2.5 hours from New York and Boston, we are recognized for our commitment to developing character in a healthy, active, screen-free environment. Set against the natural beauty of the Berkshire Mountains and the stunning shores of Lake Onota, we recently received the prestigious CampGroup Excellence Award. Our campers return year after year, generation after generation, creating lasting friendships and memories that span a lifetime.
+          </p>
+          <Link to="/our-facility" className="inline-flex items-center gap-1 px-3 py-1.5 bg-[#002E99] text-white font-medium rounded-full transition-colors duration-200 border border-[#003DCC] w-fit" style={{fontFamily: "'PP Neue Montreal', sans-serif", fontSize: '16px', letterSpacing: '0.32px'}}>
+            Virtual Tour
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* The CampSuccess Program Section - MATCHING FIGMA */}
       <section className="py-32 relative">
