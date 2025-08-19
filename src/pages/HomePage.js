@@ -79,7 +79,7 @@ const HomePage = () => {
             <h2 className="text-white text-5xl font-bold mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
              
             </h2>
-            <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif'}}></p>
+            <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}></p>
           
           <div className="grid md:grid-cols-3 gap-16">
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
