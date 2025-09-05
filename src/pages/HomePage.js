@@ -14,7 +14,7 @@ const HomePage = () => {
           </div>
           <div className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed text-white space-y-4">
             <p style={{fontFamily: "'Adobe Clean Serif', serif", fontWeight: 'bold', fontSize: '30px', marginBottom: '2rem'}}>
-              An elite weeklong <span className="highlight-yellow">leadership</span>, <span className="highlight-yellow">communication</span>, and <span className="highlight-yellow">life skills academy</span> located at award winning Camp Winadu.
+              An elite week-long <span className="highlight-yellow">leadership</span>, <span className="highlight-yellow">communication</span>, and <span className="highlight-yellow">success skills academy</span> located at award winning Camp Winadu.
             </p>
             <p style={{fontFamily: "'Adobe Clean Serif', serif", fontWeight: '500', fontSize: '25px', color: 'white'}}>
               No digital distractions. Only game changing experiences.
