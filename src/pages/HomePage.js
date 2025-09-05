@@ -77,7 +77,6 @@ const HomePage = () => {
         <div className="relative z-10 container-custom">
           <div className="text-center mb-16">
             <h2 className="text-white text-5xl font-bold mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-             
             </h2>
             <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}></p>
         </div>
@@ -108,6 +107,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+      </section>
 
 {/* Why Camp Winadu Section - MATCHING FIGMA */}
 <section className="py-32 relative">
