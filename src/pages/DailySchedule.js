@@ -11,9 +11,6 @@ const DailySchedule = () => {
             <h1 className="text-white text-7xl font-bold mb-4 uppercase" style={{fontFamily: "'Getafe', sans-serif"}}>
               daily schedule
             </h1>
-            <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-              Curious to what a typical CampSuccess day looks like? It's packed with <span className="font-bold text-camp-yellow">fun adventures, academically enriching, and community based events and activities</span>, making the most out of your child's experience.
-            </p>
           </div>
         </div>
       </section>
@@ -39,7 +36,7 @@ const DailySchedule = () => {
                   Each day offers opportunities to <span className="font-bold text-camp-yellow">take risks, build friendships, and discover new strengths</span>. You won't find this best-in-class combination anywhere else.
                 </p>
                 <p>
-                  The first 2.5 hours of each morning are dedicated to our keystone academic coursework: confident public speaking for leadership, creative expression, critical writing and analytic thought. Before lunch and afternoon offers campers a series of sports and waterfront "electives" to choose from.
+                  The first 2.5 hours of each morning are dedicated to our keystone academic coursework: confident public speaking for leadership, creative expression, critical writing and analytic thought. Before lunch and afternoon offers campers a series of academic “electives,” as well as sports and waterfront "electives" to choose from. 
                 </p>
               </div>
             </div>
@@ -116,7 +113,7 @@ const DailySchedule = () => {
                 </div>
                 <div className="flex items-center py-5">
                   <h3 className="text-3xl font-bold text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                    Core Academic Course: <span className="font-normal">Communication & Leadership Workshops</span>
+                    Confident Communication and Leadership Course
                   </h3>
                 </div>
                 <div className="flex items-center py-5">
@@ -150,7 +147,7 @@ const DailySchedule = () => {
                     <li>Talent Shows</li>
                     <li>Icebreakers</li>
                     <li>Ice Cream Socials</li>
-                    <li>Special Events, and more!</li>
+                    <li>Special Events, and more</li>
                   </ul>
                 </div>
               </div>
@@ -167,9 +164,6 @@ const DailySchedule = () => {
             <h2 className="text-5xl font-bold text-white mb-4" style={{fontFamily: "'Getafe', sans-serif"}}>
               Ready to <span className="text-camp-yellow">make new friends?</span>
             </h2>
-            <p className="text-xl text-white mb-8" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              Champions don't wait.
-            </p>
             <a 
               href="https://google.com" 
               target="_blank"
