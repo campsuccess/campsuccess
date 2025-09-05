@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+siimport React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -10,14 +10,14 @@ const Header = () => {
   // Define path mappings to categories
   const pathToCategory = {
     '/our-program': 'what-we-offer',
-    '/academic-program': 'what-we-offer',
-    '/athletic-program': 'what-we-offer',
+    '/academic-electives': 'what-we-offer',
+    '/athletic-electives': 'what-we-offer',
     '/daily-schedule': 'about',
     '/executive-functioning': 'about',
     '/meet-academic-team': 'about',
     '/meet-camp-team': 'about',
     '/our-facility': 'about',
-    '/summer-2025': 'open-courses',
+    '/summer-2025': 'open-sessions',
     '/contact': 'contact'
   };
 
@@ -74,8 +74,8 @@ const Header = () => {
               </button>
               <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link to="/our-program" className="block px-4 py-2 text-camp-bright-blue hover:bg-gray-100">Our Program</Link>
-                <Link to="/academic-program" className="block px-4 py-2 text-camp-bright-blue hover:bg-gray-100">Academic Program</Link>
-                <Link to="/athletic-program" className="block px-4 py-2 text-camp-bright-blue hover:bg-gray-100">Athletic Program</Link>
+                <Link to="/academic-program" className="block px-4 py-2 text-camp-bright-blue hover:bg-gray-100">Academic Electives</Link>
+                <Link to="/athletic-program" className="block px-4 py-2 text-camp-bright-blue hover:bg-gray-100">Athletic Electives</Link>
               </div>
             </div>
             
@@ -103,11 +103,11 @@ const Header = () => {
             <Link 
               to="/summer-2025" 
               className={`font-bold transition-colors ${
-                currentCategory === 'open-courses' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
+                currentCategory === 'open-sessions' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
               }`}
               style={{fontFamily: "'PP Neue Montreal', sans-serif", fontSize: '20px'}}
             >
-              OPEN COURSES
+              OPEN SESSIONS
             </Link>
             
             <Link 
@@ -159,7 +159,7 @@ const Header = () => {
                 Our Program
               </Link>
               <Link 
-                to="/academic-program" 
+                to="/academic-electives" 
                 className={`font-medium transition-colors ${
                   location.pathname === '/academic-program' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
                 }`}
@@ -167,7 +167,7 @@ const Header = () => {
                 Academic Electives
               </Link>
               <Link 
-                to="/athletic-program" 
+                to="/athletic-electives" 
                 className={`font-medium transition-colors ${
                   location.pathname === '/athletic-program' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
                 }`}
