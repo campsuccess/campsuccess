@@ -164,7 +164,7 @@ const Header = () => {
                   location.pathname === '/academic-program' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
                 }`}
               >
-                Academic Program
+                Academic Electives
               </Link>
               <Link 
                 to="/athletic-program" 
@@ -172,7 +172,7 @@ const Header = () => {
                   location.pathname === '/athletic-program' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
                 }`}
               >
-                Athletic Program
+                Athletic Electives
               </Link>
               <Link 
                 to="/daily-schedule" 
@@ -220,7 +220,7 @@ const Header = () => {
                   location.pathname === '/summer-2025' ? 'text-camp-bright-blue' : 'text-black hover:text-camp-bright-blue'
                 }`}
               >
-                Open Courses
+                Open Sessions
               </Link>
               <Link 
                 to="/contact" 
