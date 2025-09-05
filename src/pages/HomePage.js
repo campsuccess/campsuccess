@@ -80,7 +80,8 @@ const HomePage = () => {
              
             </h2>
             <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}></p>
-          
+        </div>
+        
           <div className="grid md:grid-cols-3 gap-16">
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/ambitiousmiddleschoolers.svg')"}}></div>
