@@ -20,13 +20,13 @@ const AthleticProgram = () => {
         <div className="relative z-10 container-custom">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-white text-7xl font-bold mb-6 uppercase" style={{fontFamily: "'Getafe', sans-serif"}}>
-              athletic program
+              athletic electives
             </h1>
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white bg-opacity-20 text-white font-medium rounded-[20px] border border-white mb-6">
               In Addition to Required Core Course
             </div>
             <p className="text-white text-lg mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif", maxWidth: '800px'}}>
-              CampSuccess has partnered with Camp Winadu's expert coaching staff to deliver a comprehensive athletics program that <span className="font-bold text-camp-yellow">builds strength, confidence, and leadership through sports.</span>
+              CCamp Winadu's expert coaching staff has delivered generations of happy campers a comprehensive athletics and outdoor adventure program that <span className="font-bold text-camp-yellow">builds strength, confidence, and leadership through competition and structured play - always screen free!</span>
             </p>
           </div>
         </div>
@@ -43,14 +43,17 @@ const AthleticProgram = () => {
           <div className="max-w-2xl ml-auto" style={{ marginRight: '-60px' }}>
             <div className="space-y-6">
               <h2 className="text-5xl font-bold text-camp-blue" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-                ABOUT THE ATHLETICS
+                SPORTS PROGRAM
               </h2>
+              <h3 className="text-xl font-bold" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
+                Camper's Choice Electives
+              </h3>
               <div className="space-y-4 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p>
-                  With decades of experience coaching middle schoolers, our team emphasizes growth through challenge, developing both individual technique and team collaboration in a structured, screen-free environment.
+                  With decades of experience coaching middle schoolers, our team emphasizes growth through challenge, developing both individual technique and team collaboration.
                 </p>
                 <p>
-                  Students participate in a wide range of sports, including soccer, basketball, baseball, golf, volleyball, and tennis. These activities foster physical coordination and resilience while teaching the habits of effective teammates: <span className="font-bold text-camp-yellow">communication, discipline, and trust.</span> Whether competing individually or working towards a shared goal, students gain a sense of belonging through skill development, effort, and camaraderie.
+                 Students participate in a wide range of elective sports of their choosing, including soccer, basketball, baseball, golf, volleyball, and tennis. These activities foster physical coordination and resilience while teaching the habits of effective teammates: <span className="font-bold text-camp-yellow">communication, discipline, and hard work.</span> Whether competing individually or working towards a shared goal, students gain a sense of belonging through skill development, effort, and camaraderie.
                 </p>
               </div>
             </div>
@@ -68,11 +71,11 @@ const AthleticProgram = () => {
                   OUTDOOR ADVENTURE
                 </h2>
               <h3 className="text-xl font-bold" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                Camper's Choice
+                Camper's Choice Electives
               </h3>
               <div className="space-y-4 text-lg leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p>
-                  CampSuccess's Outdoor Adventure Program allows campers to <span className="font-bold text-camp-yellow">build confidence as they conquer zip lines and climbing walls</span>, transforming challenges into opportunities for decision making and teamwork, essential skills for leading with confidence.
+                  CampSuccess's Outdoor Adventure Program allows campers to <span className="font-bold text-camp-yellow">build confidence as they conquer zip lines, climbing walls and hiking trails, </span>, transforming outdoor challenges into opportunities for decision making and teamwork in the natural world, essential skills for leading with confidence.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4">
@@ -123,7 +126,7 @@ const AthleticProgram = () => {
                 WATERFRONT
               </h2>
               <h3 className="text-xl font-bold text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                Camper's Choice
+                Camper's Choice ELectives
               </h3>
               <div className="space-y-4 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p>
