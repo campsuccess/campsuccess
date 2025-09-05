@@ -11,7 +11,7 @@ const Summer2025 = () => {
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-white text-7xl font-bold mb-8 uppercase flex flex-col gap-2" style={{fontFamily: "'Getafe', sans-serif"}}>
               <span>summer 2025</span>
-              <span>courses now open</span>
+              <span>sessions now open</span>
             </h1>
           </div>
         </div>
@@ -39,10 +39,10 @@ const Summer2025 = () => {
               </h2>
               <div className="space-y-4 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p>
-                  Our intensive one-week program offers a concentrated experience designed to maximize learning and growth in a short timeframe. Students dive deep into our core curriculum of public speaking, leadership development, and communication skills while experiencing the full range of our athletic and outdoor activities.
+                  Our intensive one-week program offers a concentrated experience designed to maximize learning and growth with a short time commitment. Students dive deep into our core curriculum of confident public speaking, leadership, and communication skills while experiencing the full range of our academic, athletic and outdoor electives.
                 </p>
                 <p>
-                  This program is perfect for students who want to experience the CampSuccess difference but have limited time availability. Despite the shorter duration, participants receive the same high-quality instruction and access to all our facilities and electives, ensuring a comprehensive and transformative experience.
+                  This program is perfect for students who want to experience the CampSuccess difference, ‘a taste of summer camp and a taste of boarding school’ - but have limited time available.
                 </p>
               </div>
               <a 
@@ -79,7 +79,7 @@ const Summer2025 = () => {
                   Our comprehensive two-week program provides the optimal balance of intensive learning and immersive camp experience. Students have more time to develop deep friendships, master advanced skills, and fully engage with all aspects of our curriculum.
                 </p>
                 <p>
-                  This extended program allows for more in-depth exploration of electives, additional practice sessions, and the opportunity to participate in special events and competitions. Students emerge with enhanced confidence, stronger leadership abilities, and lasting connections with peers from around the world.
+                  This extended program allows for more in-depth exploration of electives, additional practice sessions, and the opportunity to participate in more special events and competitions. Students emerge with enhanced confidence, stronger leadership abilities, and lasting connections with peers from around the world.
                 </p>
               </div>
               <a 
@@ -115,9 +115,6 @@ const Summer2025 = () => {
             <h2 className="text-5xl font-bold text-white mb-4" style={{fontFamily: "'Getafe', sans-serif"}}>
               CURIOUS TO WHAT A <span className="text-camp-yellow">TYPICAL DAY</span> LOOKS LIKE?
             </h2>
-            <p className="text-xl text-white mb-8" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              Check out how we ensure students make the most of their summer.
-            </p>
             <Link to="/daily-schedule" className="inline-flex items-center gap-2 px-4 py-2 bg-transparent text-white border border-white font-medium rounded-[20px] transition-colors duration-200 hover:bg-white/10">
               Learn More
               <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
