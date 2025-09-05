@@ -86,11 +86,8 @@ const MeetCampTeam = () => {
         <div className="relative z-10 container-custom">
           <div className="text-center max-w-4xl mx-auto">
             <h2 className="text-5xl font-bold text-white mb-4" style={{fontFamily: "'Getafe', sans-serif"}}>
-              Ready to <span className="text-camp-yellow">succeed?</span>
+              Are You Ready to <span className="text-camp-yellow">succeed?</span>
             </h2>
-            <p className="text-xl text-white mb-8" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              Champions don't wait.
-            </p>
             <a 
               href="https://google.com" 
               target="_blank"
