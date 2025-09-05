@@ -100,9 +100,6 @@ const OurFacility = () => {
             <h2 className="text-5xl font-bold text-white mb-4" style={{fontFamily: "'Getafe', sans-serif"}}>
               Ready to <span className="text-camp-yellow">lead a healthier lifestyle?</span>
             </h2>
-            <p className="text-xl text-white mb-8" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              Champions don't wait.
-            </p>
             <a 
               href="https://google.com" 
               target="_blank"
