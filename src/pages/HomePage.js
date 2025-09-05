@@ -14,7 +14,7 @@ const HomePage = () => {
           </div>
           <div className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed text-white space-y-4">
             <p style={{fontFamily: "'Adobe Clean Serif', serif", fontWeight: 'bold', fontSize: '30px', marginBottom: '2rem'}}>
-              An elite weeklong <span className="highlight-yellow">leadership</span>, <span className="highlight-yellow">communication</span>, and <span className="highlight-yellow">life skills academy</span> located at award winning Camp Winadu.
+              An elite week-long <span className="highlight-yellow">leadership</span>, <span className="highlight-yellow">communication</span>, and <span className="highlight-yellow">success skills academy</span> located at award winning Camp Winadu.
             </p>
             <p style={{fontFamily: "'Adobe Clean Serif', serif", fontWeight: '500', fontSize: '25px', color: 'white'}}>
               No digital distractions. Only game changing experiences.
@@ -45,14 +45,14 @@ const HomePage = () => {
               </h2>
               <div className="space-y-4 text-lg leading-relaxed max-w-xl">
                 <p style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px', color: '#001F66', textAlign: 'justify'}}>
-                  Camp Success, located at Winadu, is the only camp in the world combining an <span className="highlight-yellow">Ivy League caliber academic curriculum</span> with a classic sleep away camp. Developed and taught by <span className="highlight-yellow">Harvard and Yale</span> trained thought leaders, students thrive (screen free) amidst the breathtaking nature of the Berkshire Mountains.
+                  We are the only camp in the world combining an <span className="highlight-yellow">Ivy League caliber academic curriculum</span> with a classic sleep away camp. Developed and taught by <span className="highlight-yellow">Harvard and Yale</span> trained thought leaders, students thrive (screen free) amidst the breathtaking nature of the Berkshire Mountains.
                 </p>
                 <p style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px', color: '#001F66', textAlign: 'justify'}}>
                   Through rigorous academic programs and traditional summer camp activities, students build <span className="highlight-yellow">confidence, independence, and communication skills</span> through intensive workshops and outdoor adventures. This transformative leadership training prepares students with a competitive edge at school and beyond. CampSuccess offers an unforgettable opportunity for ambitious young leaders to grow, challenge themselves, and discover their full potential.
                 </p>
               </div>
               <Link to="/summer-2025" className="inline-flex items-center gap-2 px-4 py-2 text-white font-medium rounded-[20px] transition-colors duration-200" style={{backgroundColor: '#002E99'}}>
-                See Open Courses
+                1 or 2 Week Options
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -77,27 +77,24 @@ const HomePage = () => {
         <div className="relative z-10 container-custom">
           <div className="text-center mb-16">
             <h2 className="text-white text-5xl font-bold mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              WHO IS CAMPSUCCESS FOR?
+              CampSuccess Is Ideal
             </h2>
-            <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-              CampSuccess is open for <span className="font-bold text-camp-yellow">all students</span> who are looking for an elite summer camp to <span className="font-bold text-camp-yellow">hone their communication, teamwork, and life skills</span>. Here are some students who would especially thrive in a curriculum like ours.
-            </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-16">
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/ambitiousmiddleschoolers.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>AMBITIOUS MIDDLE SCHOOLERS</h3>
-                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>Includes students who are rising 7th graders to rising 9th graders.</p>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>For any ambitious middle schooler</h3>
+                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>from rising 6th graders to rising 9th graders.</p>
               </div>
             </div>
             
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/applicantorrecentapplicants.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>APPLICANT OR RECENT APPLICANTS</h3>
-                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>Junior or Senior Boarding school students seeking a competitive advantage.</p>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>Applicants, or recent admits</h3>
+                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>to Junior or Senior Boarding school seeking a competitive advantage </p>
               </div>
             </div>
             
@@ -105,7 +102,7 @@ const HomePage = () => {
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/studentswhoarelookingfor.svg')"}}></div>
               <div className="p-6 text-center">
                 <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>STUDENTS WHO ARE LOOKING FOR</h3>
-                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>high-growth summer alternative or complement to traditional academies.</p>
+                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>a healthy, high-growth summer alternative or complement to traditional academies.</p>
               </div>
             </div>
           </div>
@@ -225,7 +222,7 @@ const HomePage = () => {
         <div className="container-custom">
           <div className="border-camp-yellow p-12 text-center max-w-4xl mx-auto" style={{borderWidth: '16px'}}>
             <h2 className="text-5xl font-bold text-camp-blue mb-3" style={{fontFamily: "'Getafe', sans-serif"}}>
-              READY TO <span className="text-camp-yellow">SUCCEED?</span>
+              ARE YOU READY TO <span className="text-camp-yellow">SUCCEED?</span>
             </h2>
             <p className="text-xl text-camp-blue mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
               Champions don't wait.
