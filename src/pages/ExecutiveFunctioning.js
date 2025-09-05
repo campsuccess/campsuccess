@@ -29,7 +29,7 @@ const ExecutiveFunctioning = () => {
             </h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
               <p>
-                You may have heard a school counsellor, or another parent talk about "Executive Functioning" and how so many of our kids struggle with that skill today. Basically, executive functioning is <span className="font-bold text-camp-yellow">problem solving, coping, and common sense of ways to solve small problems and overcome easy challenges.</span> Other words for that skill are "proactive" and "initiative", Sadly, the modern world has stunted so many skills that are in fact necessary for success, especially in the "real world" outside the four walls of school.
+                You may have heard a school counsellor, or another parent talk about "Executive Functioning" and how so many of our kids struggle with that skill today. Basically, executive functioning is problem solving, coping, and common sense ways to solve small problems and overcome easy challenges. Other words for that skill are, "proactive" and “initiative." Sadly, the modern world has stunted so many of these skills that are necessary for success, especially in the "real world" outside the four walls of school.
               </p>
               <p>
                 The good news is these skills, and the success mindset that enable them are teachable and learnable. We like our students to strive for what we call a <span className="font-bold text-camp-yellow">"Champion's Mindset".</span>
