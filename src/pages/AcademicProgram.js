@@ -10,13 +10,13 @@ const AcademicProgram = () => {
                   <div className="absolute bottom-16 left-1/2 -translate-x-1/2">
           <div className="text-center" style={{ width: '1000px' }}>
             <h1 className="text-white text-7xl font-bold mb-8 uppercase" style={{fontFamily: "'Getafe', sans-serif"}}>
-              academic program
+              academic electives
             </h1>
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white bg-opacity-20 text-white font-medium rounded-[20px] border border-white mb-8">
               In Addition to Required Core Course
             </div>
             <p className="text-white text-xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif", width: '120%', marginLeft: '-10%'}}>
-              Developed by <span className="font-bold text-camp-yellow">Harvard and Yale-trained experts,</span> our proprietary content and teaching techniques are grounded in decades of success across the globe. Our Academic Program is designed to inspire confidence, critical thinking, and effective communication. Through rigorous workshops, skill drills, and public speaking tournaments, students develop leadership tools that set them apart -- <span className="font-bold text-camp-yellow">ready to meet every challenge in the classroom and beyond.</span>
+              Developed by <span className="font-bold text-camp-yellow">Harvard and Yale-trained experts,</span> our proprietary content and teaching techniques are grounded in decades of success teaching ambitious across the globe. Our Academic Electives help prepare students to meet every challenge -- <span className="font-bold text-camp-yellow">in the classroom and beyond.</span>
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const AcademicProgram = () => {
                 I. ADMISSIONS COUNSELING
               </h2>
               <h3 className="text-xl font-bold text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                Camper's Choice
+                Camper's Choice Electives
               </h3>
               <div className="space-y-4 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p className="italic">
@@ -73,7 +73,7 @@ const AcademicProgram = () => {
                 II. EXECUTIVE FUNCTIONING: <span className="text-camp-yellow">THE HIGH PERFORMANCE MINDSET</span>
               </h2>
               <h3 className="text-xl font-bold" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                Camper's Choice
+                Camper's Choice Electives
               </h3>
               <div className="space-y-4 text-lg leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p className="italic">
@@ -106,7 +106,7 @@ const AcademicProgram = () => {
             <div className="max-w-2xl ml-auto" style={{ marginRight: '-30px' }}>
               <div className="space-y-6 max-w-3xl">
               <h2 className="text-5xl font-bold text-camp-blue" style={{fontFamily: "'PP Neue Montreal', sans-serif", width: '120%'}}>
-                III. <span className="text-camp-yellow">AI</span> & THE <span className="text-camp-yellow">FUTURE OF WORK</span>
+                III. <span className="text-camp-yellow">AI</span> & THE <span className="text-camp-yellow">FUTURE OF EDUCATION</span>
               </h2>
               <h3 className="text-xl font-bold text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", width: '120%'}}>
                 Camper's Choice
