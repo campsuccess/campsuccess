@@ -45,7 +45,7 @@ const ExecutiveFunctioning = () => {
         <div className="relative z-10 container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl font-bold text-white uppercase mb-8" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              HOW MANY OF US HAVE HAD A <span className="text-camp-yellow">CONVERSATION SIMILAR TO THIS:</span>
+              HOW MANY OF US HAVE HAD A <span className="text-camp-yellow">CONVERSATION SIMILAR TO THIS</span>
             </h2>
             
             <div className="p-8">
@@ -72,11 +72,8 @@ const ExecutiveFunctioning = () => {
                 
                 <p><span className="text-camp-yellow font-bold">Mom: </span>Ok, let's look at a map and learn that route, it's easy and close by.</p>
                 
-                <p><span className="text-camp-yellow font-bold">Teenager: </span>I don't know where a map is …</p>
-                
-                <p className="text-camp-yellow italic mt-8">
-                  (Hundreds of maps of the neighborhood are available with one stroke on their phone, which they've been staring into all morning …)
-                </p>
+                <p><span className="text-camp-yellow font-bold">Teenager: </span>I don't know where a map is … (Hundreds of maps of the neighborhood are available with one stroke on their phone, which they've been staring into all morning …)</p>
+             
               </div>
             </div>
           </div>
@@ -90,9 +87,6 @@ const ExecutiveFunctioning = () => {
             <h2 className="text-5xl font-bold text-camp-blue mb-4" style={{fontFamily: "'Getafe', sans-serif"}}>
               Ready to <span className="text-camp-yellow">start achieving?</span>
             </h2>
-            <p className="text-xl text-camp-blue mb-8" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              Champions don't wait.
-            </p>
             <a 
               href="https://google.com" 
               target="_blank"
