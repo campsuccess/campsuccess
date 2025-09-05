@@ -126,7 +126,7 @@ const MeetAcademicTeam = () => {
                 </p>
                 <div className="space-y-2 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                   <p>
-                    Tom is an Honors graduate of Harvard College and received an MBA from the Yale School of Management. He brings a diverse set of work experiences, spanning efforts on behalf of the homeless and low-income communities in the Tenderloin neighborhood of San Francisco, to a two decade career as an equity derivatives trader on Wall Street. Tom has long served as a Harvard College alumni interviewer. He is currently working on his first novel.
+                    Tom is an Honors graduate of Harvard College and received an MBA from the Yale School of Management. He brings a diverse set of work experiences, spanning efforts on behalf of the homeless and low-income communities in the Tenderloin neighborhood of San Francisco, to a two decade career as an equity derivatives trader on Wall Street. Tom has long served as a Harvard College alumni interviewer.
                   </p>
                 </div>
               </div>
@@ -163,14 +163,14 @@ const MeetAcademicTeam = () => {
                   KENNETH CAIN
                 </h2>
                 <p className="text-xl font-bold text-camp-yellow" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                  Director of Leadership Education
+                  Director of Education and co-founder of Camp Success.
                 </p>
                 <div className="space-y-2 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                   <p>
-                    Kenneth Cain is an honors graduate of Harvard Law and Wesleyan University, with a distinguished career spanning law, international diplomacy, and business. A Fulbright Scholar and Council on Foreign Relations Fellow, Kenneth served in global UN Peacekeeping Operations, with deployments in Somalia, Rwanda, and Cambodia. His bestselling book on peacekeeping is being adapted into a series with Russell Crowe and a stage production with Cate Blanchett.
+                    Kenneth Cain is an honors graduate of Harvard Law School and Wesleyan University, where he was an award winning scholar-athlete, before embarking on a distinguished career spanning law, international diplomacy, and business. He served as a Fulbright Scholar in Sri Lanka and India, and as a Fellow at the Council on Foreign Relations in NYC. Kenneth served in global UN Peacekeeping Operations, with deployments in Cambodia, Somalia, Rwanda, and Cambodia. His bestselling book on peacekeeping is being adapted for film with Russell Crowe’s “Fear of God Productions” and for stage with Cate Blanchett.
                   </p>
                   <p>
-                    Kenneth has appeared on CNN, FOX, BBC, and written for The New York Times, The Wall Street Journal, and GQ. He has held senior roles in startups and private equity, lectured at Columbia and NYU, and taught leadership and communication skills worldwide. He also serves as a Harvard College alumni interviewer.
+                    Kenneth has appeared on CNN, FOX, BBC, and written for The New York Times, The Wall Street Journal, and GQ, including a National Magazine Award Nomination. He has held senior roles in several startups and in private equity, lectured at Columbia and NYU, and taught leadership and communication skills worldwide. He served for many years as a Harvard  College admissions alumni interviewer.
                   </p>
                 </div>
               </div>
@@ -183,7 +183,7 @@ const MeetAcademicTeam = () => {
                   JIM FYFE
                 </h2>
                 <p className="text-xl font-bold text-camp-yellow" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                  Assistant Instructor
+                  Instructor
                 </p>
                 <div className="space-y-2 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                   <p>
@@ -205,7 +205,7 @@ const MeetAcademicTeam = () => {
               </div>
             </div>
 
-            {/* Brenden Cahill */}
+            {/* Brendan Cahill */}
             <div className="grid md:grid-cols-2 gap-0 items-start">
               <div className="relative">
                 <img 
@@ -215,20 +215,20 @@ const MeetAcademicTeam = () => {
                 />
                 <img 
                   src="/bcdtofu.svg" 
-                  alt="Brenden Cahill" 
+                  alt="Branden Cahill" 
                   className="w-full max-w-[420px] object-contain relative z-10"
                 />
               </div>
               <div className="space-y-6 -ml-36 mr-[-50px] mt-16">
                 <h2 className="text-5xl font-bold text-camp-blue" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-                  BRENDEN CAHILL
+                  BRENDaN CAHILL
                 </h2>
                 <p className="text-xl font-bold text-camp-yellow" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                  Assistant Instructor
+                  Instructor
                 </p>
                 <div className="space-y-2 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                   <p>
-                    Brendan Cahill is a nationally recognized coach specializing in elite pre-Ivy League athletes, with nearly a decade of experience helping students gain admission to top-tier universities. Currently a coach and counselor at Choate Rosemary Hall—one of the world's most prestigious boarding schools—Coach Cahill has guided student-athletes to offers from elite programs, including Michigan, Duke, Vanderbilt, Harvard, Yale, Princeton, Dartmouth, Brown, Columbia, Cornell, Williams, Amherst, Tufts, UChicago, Johns Hopkins, Villanova, Georgetown, Bowdoin, Middlebury, and more. His expertise lies in fostering the skills, discipline, and mindset required for success both in academics and athletics.
+                    Brendan Cahill is a history teacher at Choate Rosemary Hall in Wallingford Connecticut, one of the world’s most prestigious boarding schools. He is also a nationally recognized football coach specializing in elite pre-Ivy League athletes, with nearly a decade of experience helping students gain admission to top-tier universities, and has guided student-athletes to offers from elite programs, including Michigan, Duke, Vanderbilt, Harvard, Yale, Princeton, Dartmouth, Brown, Columbia, Cornell, Williams, Amherst, Tufts, UChicago, Johns Hopkins, Georgetown, Bowdoin, Middlebury, and more. His expertise lies in fostering the skills, discipline, and mindset required for success both in academics and athletics.
                   </p>
                 </div>
               </div>
@@ -241,7 +241,7 @@ const MeetAcademicTeam = () => {
                   JULIA TONELLI
                 </h2>
                 <p className="text-xl font-bold text-camp-yellow" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-                  Assistant Instructor
+                  Instructor
                 </p>
                 <div className="space-y-2 text-lg text-camp-blue leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                   <p>
