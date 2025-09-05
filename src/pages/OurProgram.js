@@ -31,12 +31,12 @@ const OurProgram = () => {
             className="text-[20px] text-white leading-normal"
             style={{fontFamily: "'Adobe Clean Serif', serif"}}
           >
-            With a mix of <span className="font-bold text-[#FAC402]">academic and athletic enrichment</span>, CampSuccess aims to help kids build skills in public speaking and leadership, as well as encouraging them to lead a <span className="font-bold text-[#FAC402]">healthier and happier lifestyle</span>.
+            Academic Rigor meets Sports Camp Excellence.
           </p>
         </div>
       </section>
 
-      {/* About The Curriculum Section */}
+      {/* About The Curriculum --> Required Academics Section */}
       <section className="py-48 relative">
         <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('/aboutthecurriculumbg.svg')"}}></div>
         <div className="container-custom relative">
@@ -49,14 +49,14 @@ const OurProgram = () => {
           <div className="max-w-2xl ml-auto" style={{ marginRight: '-80px' }}>
             <div className="space-y-6">
               <h2 className="text-5xl font-bold text-camp-blue" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-                ABOUT THE CURRICULUM
+                Required Academics
               </h2>
               <div className="space-y-4 text-lg leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify', width: '85%'}}>
                 <p className="text-[#002E99]">
-                  CampSuccess offers a core required course that <span className="font-bold text-camp-yellow">hones the skills of public speaking</span>, teaching students how to communicate with skill and speak with impact, developed by Harvard and Yale-trained experts. Our proprietary content and teaching techniques are grounded in decades of success across the globe.
+                  CampSuccess offers a required, core Public Speaking course developed by Harvard and Yale-trained experts designed to inspire confidence, creativity, critical thinking, and effective communication. Through rigorous workshops, skill drills, and public speaking tournaments, students develop leadership tools that set them apart -- ready to meet every challenge in the classroom and beyond.
                 </p>
                 <p className="text-[#002E99]">
-                  Campers are also offered a choice between academic and athletic electives.
+                  Students will learn: Confident Public Speaking for Impact. Leadership, Independence, & Initiative. Critical Thinking & Analytical Writing. Curiosity & Creative Self-Expression. Interview & Communication Skills  (Spoken English  coaching available for international students who want to improve English skills).
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ const OurProgram = () => {
                   Leadership begins with learning how to form your own convictions and communicating them with clarity and impact. We've successfully taught these skills for over a decade, from Seoul to San Diego, Beijing to Boston, New Delhi to New Jersey. Our public speaking course integrates <span className="font-bold text-camp-yellow">critical writing, persuasive thinking, and confident delivery</span>. Students engage in drills and creative expression exercises, culminating in a formal presentation, competition, and awards ceremony.
                 </p>
                 <p className="font-bold text-camp-yellow">
-                  Taught by XXX.
+                  Taught by Kenneth Cain, CampSuccess co-founder, Jim Fyfe and Julia Tonelli. Our proprietary content and teaching techniques are grounded in decades of success across the globe.
                 </p>
               </div>
             </div>
@@ -226,7 +226,7 @@ const OurProgram = () => {
               EXPLORE OUR <span className="text-camp-yellow">ELECTIVES</span>
             </h2>
             <p className="text-lg text-camp-blue max-w-6xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
-              Additionally to the CampSuccess core course, we offer academic and athletic electives that campers can choose from. From AI to admissions counseling classes led and curated by modern leaders, campers are encouraged to be <span className="font-bold text-camp-yellow">challenged and be changed</span>. In addition, we're partnering with Winadu's expert coaches, we seek to encourage campers to lead not only a fun, but healthier life through sports recreation and adventure.
+              In addition to the CampSuccess core public speaking course, we offer “camper’s choice” academic electives in Elite Admissions Counseling, AI, and High Performance Executive Functioning.  In combination with academic excellence, Camp Winadu is famous for it’s long list of “camper’s choice” healthy, fun, and competitive sports, adventure and water front electives.
             </p>
           </div>
           
@@ -234,10 +234,7 @@ const OurProgram = () => {
             <div className="bg-white overflow-hidden border-2 border-camp-yellow" style={{ boxShadow: '4px 4px 10px rgba(0, 0, 0, 0.1)' }}>
               <div className="h-72 bg-cover bg-center" style={{backgroundImage: "url('/academicprogramboximage.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>ACADEMIC PROGRAM</h3>
-                <p className="text-camp-blue mb-6" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>
-                  Our academic classes are designed to inspire confidence, effective communication, and critical thinking.
-                </p>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>ACADEMIC ELECTIVES</h3>
                 <Link to="/academic-program" className="inline-flex items-center gap-2 px-4 py-2 text-white font-medium rounded-[20px] transition-colors duration-200" style={{backgroundColor: '#002E99'}}>
                   Learn More
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -250,10 +247,7 @@ const OurProgram = () => {
             <div className="bg-white overflow-hidden border-2 border-camp-yellow" style={{ boxShadow: '4px 4px 10px rgba(0, 0, 0, 0.1)' }}>
               <div className="h-72 bg-cover bg-center" style={{backgroundImage: "url('/athleticsprogramboximage.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>ATHLETICS PROGRAM</h3>
-                <p className="text-camp-blue mb-6" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>
-                  Our Sports & Recreation program encourages students to lead a healthier lifestyle outside of the classroom.
-                </p>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>ATHLETIC ELECTIVES</h3>
                 <Link to="/athletic-program" className="inline-flex items-center gap-2 px-4 py-2 text-white font-medium rounded-[20px] transition-colors duration-200" style={{backgroundColor: '#002E99'}}>
                   Learn More
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -272,7 +266,7 @@ const OurProgram = () => {
         <div className="relative z-10 container-custom">
           <div className="text-center max-w-5xl mx-auto px-8">
             <h2 className="text-5xl font-bold text-white mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              WORSHIP ELECTIVE
+              Additional WORSHIP ELECTIVE
             </h2>
             <p className="text-xl text-white max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}>
               Designed for <span className="font-bold text-camp-yellow">Christian students seeking spiritual growth</span>, this elective offers a space for worship and reflection in partnership with Chodae Church. Through <span className="font-bold text-camp-yellow">music, scripture, and community</span>, campers explore how faith can guide their values, actions, and influence in a changing world.
@@ -286,11 +280,8 @@ const OurProgram = () => {
         <div className="container-custom">
           <div className="border-camp-yellow p-12 text-center max-w-4xl mx-auto" style={{borderWidth: '16px'}}>
             <h2 className="text-5xl font-bold text-camp-blue mb-3" style={{fontFamily: "'Getafe', sans-serif"}}>
-              are you Ready to <span className="text-camp-yellow">COMPETE?</span>
+              Are You Ready to <span className="text-camp-yellow">COMPETE with CONFIDENCE?</span>
             </h2>
-            <p className="text-xl text-camp-blue mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
-              Champions don't wait.
-            </p>
             <a 
               href="https://google.com" 
               target="_blank"
