@@ -77,31 +77,32 @@ const HomePage = () => {
         <div className="relative z-10 container-custom">
           <div className="text-center mb-16">
             <h2 className="text-white text-5xl font-bold mb-6" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>
+            CampSuccess Is Ideal
             </h2>
             <p className="text-white text-lg max-w-4xl mx-auto" style={{fontFamily: "'Adobe Clean Serif', serif"}}></p>
         </div>
-        
+  
           <div className="grid md:grid-cols-3 gap-16">
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/ambitiousmiddleschoolers.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>AMBITIOUS MIDDLE SCHOOLERS</h3>
-                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>Includes students who are rising 6th graders to rising 9th graders.</p>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>For any ambitious middle schooler</h3>
+                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>from rising 6th graders to rising 9th graders.</p>
               </div>
             </div>
             
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/applicantorrecentapplicants.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>APPLICANTS OR RECENT ADMITS</h3>
-                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>Junior or Senior Boarding school students seeking a competitive advantage.</p>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>Applicants, or recent admits</h3>
+                <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>to Junior or Senior Boarding school seeking a competitive advantage.</p>
               </div>
             </div>
             
             <div className="bg-white overflow-hidden shadow-lg border border-camp-yellow" style={{borderWidth: '2px'}}>
               <div className="h-64 bg-cover bg-center" style={{backgroundImage: "url('/studentswhoarelookingfor.svg')"}}></div>
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>STUDENTS WHO ARE LOOKING FOR A</h3>
+                <h3 className="text-2xl font-bold text-camp-blue mb-4" style={{fontFamily: "'PP Neue Montreal', sans-serif"}}>Students looking for a</h3>
                 <p className="text-camp-blue" style={{fontFamily: "'Adobe Clean Serif', serif", fontSize: '18px'}}>healthy, high-growth summer alternative or complement to traditional academies.</p>
               </div>
             </div>
