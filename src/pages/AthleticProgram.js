@@ -75,7 +75,7 @@ const AthleticProgram = () => {
               </h3>
               <div className="space-y-4 text-lg leading-relaxed" style={{fontFamily: "'Adobe Clean Serif', serif", textAlign: 'justify'}}>
                 <p>
-                  CampSuccess's Outdoor Adventure Program allows campers to <span className="font-bold text-camp-yellow">build confidence as they conquer zip lines, climbing walls and hiking trails, </span>, transforming outdoor challenges into opportunities for decision making and teamwork in the natural world, essential skills for leading with confidence.
+                  CampSuccess's Outdoor Adventure Program allows campers to <span className="font-bold text-camp-yellow">build confidence as they conquer zip lines, climbing walls and hiking trails</span>, transforming outdoor challenges into opportunities for decision making and teamwork in the natural world, essential skills for leading with confidence.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4">
